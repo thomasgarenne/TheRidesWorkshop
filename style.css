@@ -57,6 +57,12 @@ p {
   color: #f1f1f1;
 }
 
+.layout-img img {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
 /* Footer */
 
 footer {
