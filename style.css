@@ -102,6 +102,22 @@ span {
 }
 /* Contact */
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid #9f9f9f;
+}
+
+.content-contact {
+  margin: 40px;
+}
+.contact path {
+  color: #212529;
+}
+
 /* Footer */
 
 footer {
