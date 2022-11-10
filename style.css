@@ -48,6 +48,12 @@ p {
   text-align: justify;
 }
 
+h3 {
+  color: #212529;
+  text-align: center;
+  padding-top: 1rem;
+}
+
 /* Accueil */
 .layout-title {
   position: absolute;
@@ -61,6 +67,17 @@ p {
   position: relative;
   width: 100vw;
   height: 100vh;
+}
+
+/* Sport Grid */
+.contain {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 310px);
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
 }
 
 /* Footer */
