@@ -54,6 +54,11 @@ h3 {
   padding-top: 1rem;
 }
 
+h4 {
+  color: #212529;
+  text-align: center;
+}
+
 /* Accueil */
 .layout-title {
   position: absolute;
@@ -78,6 +83,22 @@ h3 {
   padding-top: 20px;
   padding-bottom: 20px;
   margin: auto;
+}
+
+/* Evenement */
+span {
+  display: block;
+  text-align: center;
+}
+
+.coral {
+  color: coral;
+}
+
+.contain img {
+  width: 310px;
+  height: 220px;
+  border-radius: 5px;
 }
 
 /* Footer */
