@@ -5,29 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <title>The Riders Workshop</title>
   </head>
   <body>
     <!-- Start Navbar -->
-    <nav>
-      <a href="#">The Riders Workshop</a>
-      <ul class="list">
-        <li>Home</li>
-        <li>Activités</li>
-        <li>Evenements</li>
-        <li>Contact</li>
-      </ul>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">The Riders Workshop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#">Activity</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#">Evenements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- End Navbar -->
 
     <!-- Start Accueil -->
     <section class="layout">
-      <h1 class="title">Association sportive de sport de glisse.</h1>
+      <a href="#aventure"
+        ><h1 class="layout-title">
+          Association sportive de sport de glisse.
+        </h1></a
+      >
     </section>
     <!-- End Accueil -->
     <!-- Start Presentation -->
     <section class="layout">
-      <h2 class="title">Le début d'une belle aventure</h2>
+      <h2 class="title" id="aventure">Le début d'une belle aventure</h2>
       <p class="flux">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
         magnam quaerat nisi a. Laborum sed ea atque ipsum reprehenderit beatae
@@ -130,12 +166,21 @@
       <!-- End Copyright -->
 
       <ul class="list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Activités</a></li>
+        <li>
+          <a href="/accueil.html">Home</a>
+        </li>
+        <li><a href="#">Activity</a></li>
         <li><a href="#">Evenements</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </footer>
     <!-- End Footer -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
