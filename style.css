@@ -75,6 +75,13 @@ h4 {
   height: 100vh;
 }
 
+.img-aventure img {
+  display: flex;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 70%;
+}
+
 /* Sport Grid */
 .contain {
   display: grid;
