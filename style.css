@@ -157,20 +157,25 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
 .content-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-right: 40px;
   margin-left: 40px;
 }
 
-.contact:nth-child(1) {
+.contact:nth-child(2) {
   border-bottom: 1px solid #9f9f9f;
 }
 
-.contact:nth-child(2) {
+.contact:nth-child(3) {
   border-bottom: 1px solid #9f9f9f;
 }
 
