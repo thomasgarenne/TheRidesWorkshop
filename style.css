@@ -1,4 +1,5 @@
 /*     RESET     */
+*,
 ::after,
 ::after {
   box-sizing: border-box;
@@ -58,6 +59,10 @@ h3 {
 h4 {
   color: #212529;
   text-align: center;
+}
+
+td {
+  padding: 5px 10px;
 }
 
 /* Accueil */
@@ -185,6 +190,9 @@ span {
 }
 
 .contact:nth-child(3) {
+  border-bottom: 1px solid #9f9f9f;
+}
+.contact:nth-child(4) {
   border-bottom: 1px solid #9f9f9f;
 }
 
